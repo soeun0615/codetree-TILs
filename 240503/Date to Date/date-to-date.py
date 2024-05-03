@@ -14,4 +14,5 @@ for i in range(m2):
 gap2 += d2
 
 gap = gap2-gap1
+if gap ==0: gap = 1
 print(gap)
