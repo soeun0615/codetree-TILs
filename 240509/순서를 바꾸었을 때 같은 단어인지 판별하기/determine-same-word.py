@@ -24,3 +24,6 @@ if len(arr_A) == len(arr_B):
         print("Yes")
     else:
         print("No")
+
+else:
+    print("No")
