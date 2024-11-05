@@ -8,12 +8,12 @@ count = [0, 0, 0, 0]
 for group in groups:
     # print(group)
     if group[0] == 'Y':
-        if int(group[1]) > 37:
+        if int(group[1]) >= 37:
             count[0] +=1
         else:
             count[2] +=1
     else:
-        if int(group[1]) > 37:
+        if int(group[1]) >= 37:
             count[1] +=1
         else:
             count[3] +=1
