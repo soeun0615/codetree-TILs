@@ -1,4 +1,4 @@
 a, b = map(int, input().split())
 
-for i in range(abs(a-b-1)):
-    print(max(a, b)-i, end=' ')
+for i in range(-max(a, b), -min(a, b)+1):
+    print(abs(i), end=' ')
