@@ -7,12 +7,9 @@ for i in range(n):
     if (sum(score)/len(score) >= 60):
         ans.append('pass')
         print('pass')
+        cnt += 1
     else:
         ans.append('fail')
         print('fail')
-
-for i in ans:
-    if (i == 'pass'):
-        cnt += 1
     
 print(cnt)
