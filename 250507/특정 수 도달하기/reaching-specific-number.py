@@ -7,4 +7,4 @@ for i in arr:
     else:
         break
 
-print(sum(s), round(sum(s)/len(s), 2))
+print(sum(s), round(sum(s)/len(s), 1))
