@@ -1,5 +1,11 @@
 arr = list(map(int, input().split()))
-filterd_arr = [arr[i]//10 for i in range(len(arr)) if (arr[i]!=0)]
+filterd_arr = []
+
+for i in range(len(arr)):
+    if (arr[i]!=0):
+        filterd_arr.append(arr[i]//10)
+    else:
+        break
 
 arr_10 = [0] * 10
 
