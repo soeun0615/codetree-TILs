@@ -15,5 +15,8 @@ for i in idx:
         if (tmp[j]!=b[j]):
             ans = 'No'
             break
-        
+
+if (idx == []):
+    ans = 'No'
+    
 print(ans)
