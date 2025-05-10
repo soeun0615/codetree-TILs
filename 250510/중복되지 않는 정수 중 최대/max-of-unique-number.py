@@ -2,7 +2,7 @@ n = int(input())
 nums = list(map(int, input().split()))
 
 # Please write your code here.
-flt_arr = list(set(nums))
+flt_arr = sorted(list(set(nums)))
 cnt_arr = [0] * len(flt_arr)
 
 for elem in nums:
