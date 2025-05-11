@@ -12,7 +12,7 @@ for j in range(4):
         sum_v += arr[i][j]
     avg_v.append(sum_v/len(arr))
 
-w_avg = (sum(avg_h)+sum(avg_v))/(len(arr[0])+len(arr))
+w_avg = (sum(avg_h)+sum(avg_v))/(len(avg_h)+len(avg_v))
 print(*avg_h)
 print(*avg_v)
-print(w_avg)
+print(round(w_avg, 1))
