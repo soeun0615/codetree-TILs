@@ -7,4 +7,5 @@ for w in ans:
 
 for i in range(len(word)//5):
     print(word[i*5:(i+1)*5])
-print(word[-(len(word)%5)::])
+if (len(word)%5 > 0):
+    print(word[-(len(word)%5)::])
