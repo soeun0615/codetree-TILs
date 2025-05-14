@@ -18,6 +18,8 @@ for i in range(len(A)):
         cnt = 1
         ans.append(A[i])
         a = ans.index(A[i])
+        if (i==len(A)-1):
+            ans.append(cnt)
 
 temp = ""
 for a in ans:
