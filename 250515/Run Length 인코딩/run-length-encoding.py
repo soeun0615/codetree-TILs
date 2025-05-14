@@ -11,15 +11,14 @@ for i in range(len(A)):
         a = ans.index(A[i])
     elif (ans[a]==A[i]):
         cnt += 1
-        if (i==len(A)-1):
-            ans.append(cnt)
     else:
         ans.append(cnt)
         cnt = 1
         ans.append(A[i])
         a = ans.index(A[i])
-        if (i==len(A)-1):
-            ans.append(cnt)
+        
+    if (i==len(A)-1):
+        ans.append(cnt)
 
 temp = ""
 for a in ans:
