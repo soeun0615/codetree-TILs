@@ -1,0 +1,5 @@
+given = list(input())
+given.pop(1)
+given.pop(-2)
+s = ''.join(given)
+print(s)
