@@ -5,7 +5,7 @@ b = list(map(int, input().split()))
 # Please write your code here.
 def find_list(a, b):
     ans = 'No'
-    for i in range(n2):
+    for i in range(n1 - n2):
         temp = a[i:i+n2]
         # print(temp)
         if (temp == b):
