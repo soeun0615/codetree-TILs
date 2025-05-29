@@ -12,7 +12,8 @@ for _ in range(MAX_N):
     score = int(score)
     agents.append(Agent(codename, score))
 
-agents_score = [score for _ in range(MAX_N)]
+agents_score = [agents[i].score for i in range(MAX_N)]
 
 ind = agents_score.index(min(agents_score))
+# print(agents_score, ind)
 print(agents[ind].codename, agents[ind].score)
